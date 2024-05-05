@@ -1,10 +1,18 @@
-$color : red;
+@use 'custom';
 
+// IMPORT COMPONENTS
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
 
-body{
-    background-color: $color;
-    color: black;
-    font-style: italic;
-}
-
- 
+// IMPORT SECTIONS
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/companies';
+@use 'sections/services';
+@use 'sections/testimonial';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/cta';
+@use 'sections/footer';
